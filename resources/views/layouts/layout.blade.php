@@ -24,23 +24,11 @@
        folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{ URL::asset('dist/css/skins/_all-skins.min.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('dist/css/jquery.dataTables.min.css') }}">
-   
-    <link rel="stylesheet" href="{{ URL::asset('sweetalert/dist/sweetalert.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('notifications/notification.css') }}">
-
-
-    <link rel="stylesheet" href="{{ URL::asset('selectize/selectize.bootstrap2.css') }}">
-
-    <link rel="stylesheet" href="{{ URL::asset('plugins/iCheck/all.css') }}">
-
 
     <!-- daterange picker -->
     <link rel="stylesheet" href="{{ URL::asset('bower_components/bootstrap-daterangepicker/daterangepicker.css') }}">
     <!-- bootstrap datepicker -->
     <link rel="stylesheet" href="{{ URL::asset('bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css') }}">
- 
-    <!-- Bootstrap time Picker -->
-    <link rel="stylesheet" href="{{ URL::asset('plugins/timepicker/bootstrap-timepicker.min.css') }}">
 
     <link rel="stylesheet" href="{{ URL::asset('bower_components/modal-effect/css/component.css') }}">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -156,26 +144,9 @@
     <!-- AdminLTE for demo purposes -->
     
     <script src="{{ URL::asset('dist/js/demo.js') }}"></script>
-     <script src="{{ URL::asset('dist/js/jquery.dataTables.min.js') }}"></script>
-    <!-- <script src="{{ URL::asset('bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script> -->
-    <script src="{{ URL::asset('bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
+ 
 
-    <script src="{{ URL::asset('sweetalert/dist/sweetalert.min.js') }}"></script>
-    
-    <script src="{{ URL::asset('notifyjs/dist/notify.min.js') }}"></script>
-    <script src="{{ URL::asset('notifications/notify-metro.js') }}"></script>
-    <script src="{{ URL::asset('notifications/notifications.js') }}"></script>
-    
-    
-    <script src="{{ URL::asset('selectize/selectize.js') }}"></script>
-    
-
-    <script src="{{ URL::asset('plugins/iCheck/icheck.min.js') }}"></script>
-
-    <!-- InputMask -->
-    <script src="{{ URL::asset('plugins/input-mask/jquery.inputmask.js') }}"></script>
-    <script src="{{ URL::asset('plugins/input-mask/jquery.inputmask.date.extensions.js') }}"></script>
-    <script src="{{ URL::asset('plugins/input-mask/jquery.inputmask.extensions.js') }}"></script>
+   
     <!-- date-range-picker -->
     <script src="{{ URL::asset('bower_components/moment/min/moment.min.js') }}"></script>
     <script src="{{ URL::asset('bower_components/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
@@ -185,9 +156,8 @@
     <script src="{{ URL::asset('bower_components/modal-effect/js/modalEffects.js') }}"></script>
 
     <script src="{{ URL::asset('dist/js/highcharts.js') }}"></script>
-    <script src="{{ URL::asset('app/js/layout.js') }}"></script>
-    <!-- libreria para los sockets -->
-    <script src="{{ URL::asset('dist/js/socket.io-2.3.0.js') }}"></script>
+
+
  
     <script src="{{ URL::asset('app/js/BASE_JS.js?version=06062022') }}"></script>
     <script src="{{ URL::asset('app/js/app.js?version=06062022') }}"></script>

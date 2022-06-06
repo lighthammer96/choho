@@ -18,7 +18,7 @@ class BASE_JS {
         //this.comboQueryUrl = BaseUrl+"PrincipalController/getComboboxQuery";
         this.datatable = new Object();
         // this.tipodoc_id = tipodoc_id;
-        this.modulo_id = modulo_id;
+       
         // VARIABLE PARA ACTIVAR Y DESACTIVAR INPUTS
         this.disabled = false;
         $("#" + this.modalID).on('shown.bs.modal', function(event) {
@@ -135,8 +135,9 @@ class BASE_JS {
                     for (let p in parametros) {
                         d[p] = parametros[p];
                     }
-                    // d.tipodoc_id = self.tipodoc_id
-                    d.modulo_id = self.modulo_id
+              
+                    
+                 
                     d._token = _token
                     
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('view');
 });
+
+
+Route::post('api/obtener_asesores', [ApiController::class, "obtener_asesores"]);
+Route::post('api/obtener_resultado', [ApiController::class, "obtener_resultado"]);

@@ -12,4 +12,6 @@ class Productos extends Model
     public $timestamps = false;
     
     protected $table = "productos";
+
+    
 }

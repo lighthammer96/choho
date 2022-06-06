@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Asesores;
+use App\Models\AsesoresClientes;
 use App\Models\Clientes;
 use App\Models\DetallePedidos;
 use App\Models\Pedidos;
@@ -61,6 +62,34 @@ class DatabaseSeeder extends Seeder
         $asesor->codigo_asesor = "C003";
         $asesor->nombres = "Erick Inche";
         $asesor->save();
+
+        // asiganos clientes a los asesores de prueba
+        $asesores_clientes = new AsesoresClientes();
+        $asesores_clientes->codigo_asesor = "C001";
+        $asesores_clientes->id_cliente = 2;
+        $asesores_clientes->save();
+
+        $asesores_clientes = new AsesoresClientes();
+        $asesores_clientes->codigo_asesor = "C003";
+        $asesores_clientes->id_cliente = 3;
+        $asesores_clientes->save();
+
+    
+        $asesores_clientes = new AsesoresClientes();
+        $asesores_clientes->codigo_asesor = "C002";
+        $asesores_clientes->id_cliente = 4;
+        $asesores_clientes->save();
+
+        
+        $asesores_clientes = new AsesoresClientes();
+        $asesores_clientes->codigo_asesor = "C001";
+        $asesores_clientes->id_cliente = 1;
+        $asesores_clientes->save();
+
+        $asesores_clientes = new AsesoresClientes();
+        $asesores_clientes->codigo_asesor = "C001";
+        $asesores_clientes->id_cliente = 5;
+        $asesores_clientes->save();
 
         // registramos productos de prueba
         $producto = new Productos();

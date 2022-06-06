@@ -1,0 +1,1 @@
+var api = new BASE_JS('api', 'api');

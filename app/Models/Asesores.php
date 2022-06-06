@@ -9,5 +9,7 @@ class Asesores extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+
     protected $table = "asesores";
 }

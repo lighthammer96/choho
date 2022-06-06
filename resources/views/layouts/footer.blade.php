@@ -4,7 +4,6 @@
     <div class="pull-right hidden-xs">
         <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2021 <a href="#">IMS System</a>.</strong> All rights
-    reserved.
+    <strong>2022 <a href="#"></a></strong>
 </footer>
 {{-- @endsection --}}

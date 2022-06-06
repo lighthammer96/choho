@@ -9,5 +9,7 @@ class DetallePedidos extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+    
     protected $table = "detalle_pedidos";
 }

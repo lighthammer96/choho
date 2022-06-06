@@ -9,5 +9,7 @@ class Pedidos extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+    
     protected $table = "pedidos";
 }
